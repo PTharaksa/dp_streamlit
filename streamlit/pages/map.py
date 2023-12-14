@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 import folium
 import os
 
-filename = 'st_AEC.xlsx'
+filename = 'streamlit/st_data/st_AEC.xlsx'
 
 def load_data(file):
     data = load_workbook(file)
