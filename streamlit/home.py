@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from openpyxl import load_workbook
 import altair as alt
-from streamlit-folium import st_folium
+from streamlit_folium import st_folium
 import re
 
 filename = 'st_AEC.xlsx'
