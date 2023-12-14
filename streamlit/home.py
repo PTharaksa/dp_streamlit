@@ -5,7 +5,7 @@ import altair as alt
 from streamlit_folium import st_folium
 import re
 
-filename = 'st_AEC.xlsx'
+filename = 'streamlit/st_data/st_AEC.xlsx'
 country_list = ['Indonesia', 'Philippines', 'Thailand', 'Vietnam', 'Myanmar']
 ticker = '⚠️'
 annotation_list = [('1998', 'Asian economic crisis'),
