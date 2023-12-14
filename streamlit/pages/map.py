@@ -36,7 +36,7 @@ m_data = m_data[m_data['year'] == latest_data]
 m_data['Country Name'].replace(to_replace=r'Lao PDR', value='Laos', regex=True, inplace=True)
 m_data['Country Name'].replace(to_replace=r'Brunei Darussalam', value='Brunei', regex=True, inplace=True)
 layer_map = m_data[['Country Name', st.session_state.indicator]]
-world_map =os.path.join('world-countries.json')
+world_map =os.path.join('streamlit/st_data/world-countries.json')
 m = folium.Map(location=[20,100], zoom_start=4)
 cp = folium.Choropleth(
     geo_data=world_map,
